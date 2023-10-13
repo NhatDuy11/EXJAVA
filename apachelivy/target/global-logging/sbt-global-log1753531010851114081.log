@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.6 (Oracle Corporation Java 11.0.18)
+[debug]       Load.loadUnit: plugins took 223.6919ms
+[debug]       Load.loadUnit: defsScala took 0.5055ms
+[debug] [Loading] Scanning directory C:\Users\Admin\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Admin\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 47.437 ms
+[debug]           Load.resolveProject(global-plugins) took 105.1574ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Admin\.sbt\1.0\plugins, plugins: List(<none>))) took 208.973ms
+[debug] [Loading] Done in C:\Users\Admin\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 255.8923ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.29ms
+[debug]     Load.loadUnit(file:/C:/Users/Admin/.sbt/1.0/plugins/, ...) took 498.8541ms
+[debug]   Load.apply: load took 857.5663ms
+[debug]   Load.apply: resolveProjects took 14.8863ms
+[debug]   Load.apply: finalTransforms took 135.9912ms
+[debug]   Load.apply: config.delegates took 22.843ms
+[debug]   Load.apply: Def.make(settings)... took 802.4184ms
+[debug]   Load.apply: structureIndex took 201.5588ms
+[debug]   Load.apply: mkStreams took 6.3562ms
+[info] loading global plugins from C:\Users\Admin\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4759.1932ms
+[debug]           Load.loadUnit: plugins took 53.7001ms
+[debug]           Load.loadUnit: defsScala took 0.0188ms
+[debug] [Loading] Scanning directory D:\JAVA\apachelivy\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\JAVA\apachelivy\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 6.0306 ms
+[debug]               Load.resolveProject(apachelivy-build) took 2.4443ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id apachelivy-build, base: D:\JAVA\apachelivy\project, plugins: List(<none>))) took 9.6327ms
+[debug] [Loading] Done in D:\JAVA\apachelivy\project, returning: (apachelivy-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 13.9931ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0166ms
+[debug]         Load.loadUnit(file:/D:/JAVA/apachelivy/project/, ...) took 69.7243ms
+[debug]       Load.apply: load took 73.359ms
+[debug]       Load.apply: resolveProjects took 0.2867ms
+[debug]       Load.apply: finalTransforms took 11.3106ms
+[debug]       Load.apply: config.delegates took 0.4005ms
+[debug]       Load.apply: Def.make(settings)... took 189.4824ms
+[debug]       Load.apply: structureIndex took 68.2462ms
+[debug]       Load.apply: mkStreams took 0.0033ms
+[info] loading project definition from D:\JAVA\apachelivy\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 829.4957ms
+[debug]     Load.loadUnit: defsScala took 0.0057ms
+[debug] [Loading] Scanning directory D:\JAVA\apachelivy
+[debug]       Load.loadUnit: mkEval took 13.3724ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.2455 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 5.6226ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: D:\JAVA\apachelivy, plugins: List(<none>))) took 22.6547ms
+[debug] [Loading] Done in D:\JAVA\apachelivy, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 381.9688ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.6066ms
+[debug]   Load.loadUnit(file:/D:/JAVA/apachelivy/, ...) took 1223.2828ms
+[debug] Load.apply: load took 1228.9546ms
+[debug] Load.apply: resolveProjects took 0.193ms
+[debug] Load.apply: finalTransforms took 14.356ms
+[debug] Load.apply: config.delegates took 0.2836ms
+[debug] Load.apply: Def.make(settings)... took 147.5271ms
+[debug] Load.apply: structureIndex took 50.5433ms
+[debug] Load.apply: mkStreams took 0.0029ms
+[info] set current project to apachelivy (in build file:/D:/JAVA/apachelivy/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-d1ec08628b0c78f4608b
+[debug] Writing bsp connection file
+[warn] sbt server could not start in 10s

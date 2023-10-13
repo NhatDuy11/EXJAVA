@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.orc:orc-mapreduce:1.5.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.orc/orc-mapreduce/1.5.12/844ed8f9a2adfd4a1af874be666b28be2e3f6e6a/orc-mapreduce-1.5.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.orc/orc-mapreduce/1.5.12/dde55c769e08bf1aa937767711b0a914dc2f1850/orc-mapreduce-1.5.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

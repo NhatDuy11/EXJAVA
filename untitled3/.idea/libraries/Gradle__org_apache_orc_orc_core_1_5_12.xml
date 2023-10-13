@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.orc:orc-core:1.5.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.orc/orc-core/1.5.12/f0878cac6a6c823bfb760b32bd585b8d546ec830/orc-core-1.5.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.orc/orc-core/1.5.12/9e5d60209f90e0928f72863554e848dcaf2e713f/orc-core-1.5.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

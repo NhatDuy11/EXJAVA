@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.spark:spark-unsafe_2.12:3.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-unsafe_2.12/3.1.2/b737592d20b39a2a0624bd8954c77d73d9d35bec/spark-unsafe_2.12-3.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-unsafe_2.12/3.1.2/66377085f1d6b7ef525f5f09db2c38978b98876f/spark-unsafe_2.12-3.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

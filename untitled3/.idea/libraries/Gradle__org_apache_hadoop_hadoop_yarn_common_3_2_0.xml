@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.hadoop:hadoop-yarn-common:3.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-yarn-common/3.2.0/7e7f10bf5b96237da101056feaeb6e00cb2ecc87/hadoop-yarn-common-3.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-yarn-common/3.2.0/88fc6ee3c3df7fab79bf90aead21f880be8662b8/hadoop-yarn-common-3.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

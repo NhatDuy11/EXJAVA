@@ -1,0 +1,27 @@
+plugins {
+    id 'scala'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.scala-lang:scala-library:2.13.11'
+    implementation 'org.apache.spark:spark-core_2.12:3.1.2'
+    implementation 'org.apache.spark:spark-sql_2.12:3.1.2'
+    implementation fileTree(dir: 'lib', include: '*.jar')
+}
+apply plugin: 'scala'
+scala{
+    version='2.13.11'
+}
+
+test {
+    useJUnitPlatform()
+}

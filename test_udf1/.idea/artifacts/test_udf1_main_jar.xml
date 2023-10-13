@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="test_udf1.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/test_udf1_main_jar</output-path>
+    <root id="archive" name="test_udf1.main.jar">
+      <element id="module-output" name="test_udf1.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.randelshofer/fastdoubleparser/0.8.0/85c25540369921659556ead85e02c99ef0d24280/fastdoubleparser-0.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.15.0-rc3/68130eb4894ebf1616c05291e262fcfa37af2797/jackson-core-2.15.0-rc3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.15.0-rc3/f077ef4512d3fa596471121abc3843ea81288d2f/jackson-databind-2.15.0-rc3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.15.0-rc3/1853deb12f6833d37b3ce5e2edda9a890c556ead/jackson-annotations-2.15.0-rc3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

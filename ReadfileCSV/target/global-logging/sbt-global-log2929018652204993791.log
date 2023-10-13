@@ -1,0 +1,129 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.0 (Oracle Corporation Java 17.0.6)
+[debug]       Load.loadUnit: plugins took 308.9893ms
+[debug]       Load.loadUnit: defsScala took 0.5733ms
+[debug] [Loading] Scanning directory C:\Users\Admin\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Admin\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 29.0303 ms
+[debug]           Load.resolveProject(global-plugins) took 56.0617ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Admin\.sbt\1.0\plugins, plugins: List(<none>))) took 130.3932ms
+[debug] [Loading] Done in C:\Users\Admin\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 192.6658ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4037ms
+[debug]     Load.loadUnit(file:/C:/Users/Admin/.sbt/1.0/plugins/, ...) took 521.2593ms
+[debug]   Load.apply: load took 873.3632ms
+[debug]   Load.apply: resolveProjects took 6.8453ms
+[debug]   Load.apply: finalTransforms took 87.1106ms
+[debug]   Load.apply: config.delegates took 12.8789ms
+[debug]   Load.apply: Def.make(settings)... took 887.0922ms
+[debug]   Load.apply: structureIndex took 311.0336ms
+[debug]   Load.apply: mkStreams took 2.9331ms
+[info] loading global plugins from C:\Users\Admin\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4872.004ms
+[debug]           Load.loadUnit: plugins took 49.0027ms
+[debug]           Load.loadUnit: defsScala took 0.0086ms
+[debug] [Loading] Scanning directory D:\JAVA\ReadfileCSV\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\JAVA\ReadfileCSV\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.1171 ms
+[debug]               Load.resolveProject(readfilecsv-build) took 2.0498ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id readfilecsv-build, base: D:\JAVA\ReadfileCSV\project, plugins: List(<none>))) took 8.0818ms
+[debug] [Loading] Done in D:\JAVA\ReadfileCSV\project, returning: (readfilecsv-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 10.9822ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0215ms
+[debug]         Load.loadUnit(file:/D:/JAVA/ReadfileCSV/project/, ...) took 61.4215ms
+[debug]       Load.apply: load took 64.3981ms
+[debug]       Load.apply: resolveProjects took 1.5431ms
+[debug]       Load.apply: finalTransforms took 21.3978ms
+[debug]       Load.apply: config.delegates took 0.8301ms
+[debug]       Load.apply: Def.make(settings)... took 159.2319ms
+[debug]       Load.apply: structureIndex took 52.7476ms
+[debug]       Load.apply: mkStreams took 0.0024ms
+[info] loading project definition from D:\JAVA\ReadfileCSV\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2281.1286ms
+[debug]     Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory D:\JAVA\ReadfileCSV
+[debug]       Load.loadUnit: mkEval took 6.9706ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.6575 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 3.3214ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: D:\JAVA\ReadfileCSV, plugins: List(<none>))) took 7.6663ms
+[debug] [Loading] Done in D:\JAVA\ReadfileCSV, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 5492.3133ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.5951ms
+[debug]   Load.loadUnit(file:/D:/JAVA/ReadfileCSV/, ...) took 7785.0478ms
+[debug] Load.apply: load took 7787.0217ms
+[debug] Load.apply: resolveProjects took 0.1588ms
+[debug] Load.apply: finalTransforms took 15.5164ms
+[debug] Load.apply: config.delegates took 0.5348ms
+[debug] Load.apply: Def.make(settings)... took 159.9436ms
+[debug] Load.apply: structureIndex took 100.1472ms
+[debug] Load.apply: mkStreams took 0.0031ms
+[info] set current project to ReadfileCSV (in build file:/D:/JAVA/ReadfileCSV/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] 
+[info] Here are some highlights of sbt 1.9.0:
+[info]   - POM consistency of sbt plugin publishing
+[info]   - sbt new, a text-based adventure
+[info]   - Deprecation of IntegrationTest configuration
+[info] See https://eed3si9n.com/sbt-1.9.0 for full release notes.
+[info] Hide the banner for this release by running `skipBanner`.
+[info] sbt server started at local:sbt-server-ae70a81aa8992cfaae88
+[debug] Writing bsp connection file
+[info] started sbt server

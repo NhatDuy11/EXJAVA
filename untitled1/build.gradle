@@ -1,0 +1,39 @@
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "6.0.0"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation "io.confluent.ksql:ksqldb-udf:7.3.0"
+    implementation "org.apache.kafka:kafka_2.13:2.5.0"
+    implementation "org.apache.kafka:connect-api:2.5.0"
+}
+
+test {
+    useJUnitPlatform()
+}
+compileJava {
+    options.compilerArgs << "-parameters"
+}
+apply plugin: "com.github.johnrengelman.shadow"
+apply plugin: "java"
+shadowJar {
+    archiveBaseName = "example-udfs"
+    archiveClassifier = ""
+    destinationDirectory = file("extensions")
+}

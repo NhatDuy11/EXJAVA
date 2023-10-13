@@ -1,0 +1,11 @@
+[debug] > Exec(rm -rf target/, None, None)
+[error] Expected ID character
+[error] Not a valid command: rm
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: rm
+[error] rm -rf target/
+[error]   ^
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,65 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+repositories {
+    maven {
+        url "https://packages.confluent.io/maven/"
+    }
+}
+
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+dependencies {
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.15.0-rc3'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.12.5'
+
+}
+dependencies {
+    // existing dependencies
+    implementation 'io.confluent:kafka-avro-serializer:6.2.0'
+    implementation 'io.confluent:kafka-streams-avro-serde:6.2.0'
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.apache.kafka/kafka
+    implementation group: 'org.apache.kafka', name: 'kafka_2.13', version: '3.4.0'
+
+}
+dependencies {
+    implementation 'org.apache.kafka:connect-api:3.0.0'
+}
+dependencies {
+    implementation group: 'io.confluent', name: 'kafka-connect-avro-converter', version: '7.3.3'
+
+
+}
+dependencies {
+    // https://mvnrepository.com/artifact/io.confluent.ksql/ksql-common
+    implementation group: 'io.confluent.ksql', name: 'ksql-common', version: '5.4.6'
+
+}
+dependencies {
+    // https://mvnrepository.com/artifact/io.confluent.ksql/ksqldb-udf
+    implementation group: 'io.confluent.ksql', name: 'ksqldb-udf', version: '6.1.0'
+    implementation group: 'org.apache.kafka', name: 'kafka-streams', version: '3.4.0'
+
+
+}
+dependencies {
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+}

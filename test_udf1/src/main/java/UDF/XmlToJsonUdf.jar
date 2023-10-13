@@ -1,0 +1,47 @@
+package UDF;
+import com.fasterxml.jackson.databind.util.JSONPObject;
+import org.json.JSONObject;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.DocumentBuilder;
+
+import org.w3c.dom.*;
+
+import org.xml.sax.InputSource;
+import org.json.JSONObject;
+import java.io.StringReader;
+
+public class XmlToJsonUdf {
+
+    public String convertXmlToJson(String xmlString) {
+        try {
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document document = builder.parse(new InputSource(new StringReader(xmlString)));
+            Element root = document.getDocumentElement();
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put(root.getNodeName(), xmlElementToJson(root));
+            return jsonObject.toString();
+        } catch (Exception ex) {
+            throw new RuntimeException(ex);
+        }
+    }
+
+    private static JSONObject xmlElementToJson(Element element) {
+        JSONObject jsonObject = new JSONObject();
+        NodeList children = element.getChildNodes();
+        for (int i = 0; i < children.getLength(); i++) {
+            Node child = children.item(i);
+            if (child instanceof Element) {
+                Element childElement = (Element) child;
+                if (childElement.getChildNodes().getLength() == 1 && (childElement.getFirstChild() instanceof Text)) {
+                    jsonObject.put(childElement.getNodeName(), childElement.getTextContent());
+                } else {
+                    jsonObject.put(childElement.getNodeName(), xmlElementToJson(childElement));
+                }
+            }
+        }
+        return jsonObject;
+    }
+
+
+}

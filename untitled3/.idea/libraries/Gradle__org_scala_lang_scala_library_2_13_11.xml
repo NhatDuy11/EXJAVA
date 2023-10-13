@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: org.scala-lang:scala-library:2.13.11" type="Scala">
+    <properties>
+      <language-level>Scala_2_13</language-level>
+      <compiler-classpath>
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.13.11/30e53c6936843f6f470617b6256383171048efde/scala-compiler-2.13.11.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-sbt/compiler-bridge_2.13/1.6.1/15798fdc2d9dca8962ba3c14ae8deaf34eca2213/compiler-bridge_2.13-1.6.1-sources.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-sbt/compiler-interface/1.6.1/fa68930e1686c5d251a025ae656fa1e5f0af53fc/compiler-interface-1.6.1.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.11/965b382f32d914716b0c6a8d05956a3600a7b35a/scala-reflect-2.13.11.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.11/4fcd82e1ce42d7b157914b86864e7b3591e1e0d2/scala-library-2.13.11.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jline/jline/3.22.0/512dde71f1ba9cb87f318e4e1e3acc77dc67a712/jline-3.22.0.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.13.0/1200e7ebeedbe0d10062093f32925a912020e747/jna-5.13.0.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-sbt/util-interface/1.6.1/b6280fa8056b59788d04084994fcf5ee9f1ca9f0/util-interface-1.6.1.jar" />
+      </compiler-classpath>
+    </properties>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.11/4fcd82e1ce42d7b157914b86864e7b3591e1e0d2/scala-library-2.13.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.11/f1b135608059938f48ec63cae04391329cf1ee1d/scala-library-2.13.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

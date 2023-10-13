@@ -1,0 +1,15 @@
+[debug] > Exec(;project {file:/D:/JAVA/Spark/}root; apply, None, None)
+[debug] > Exec(project {file:/D:/JAVA/Spark/}root, None, None)
+[info] set current project to Spark (in build file:/D:/JAVA/Spark/)
+[debug] > Exec(apply, None, None)
+[error] apply usage:
+[error] 
+[error] 
+[error] More command help available using 'help <command>' for:
+[error]   apply
+[error] 
+[error] apply
+[error]      ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,45 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+
+    maven {
+        url "https://packages.confluent.io/maven"
+    }
+}
+
+dependencies {
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation "io.confluent.ksql:ksqldb-udf:7.3.0"
+    implementation "org.apache.kafka:kafka_2.13:2.5.0"
+    implementation "org.apache.kafka:connect-api:2.5.0"
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.0'
+}
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes(
+                'Main-Class': 'my.custom.udf.XmlToJsonUdf1'
+        )
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+compileJava {
+    options.compilerArgs << "-parameters"
+}

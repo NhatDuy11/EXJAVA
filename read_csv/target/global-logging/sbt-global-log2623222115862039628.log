@@ -1,0 +1,15 @@
+[debug] > Exec(;project {file:/D:/JAVA/read_csv/}root; apply, None, None)
+[debug] > Exec(project {file:/D:/JAVA/read_csv/}root, None, None)
+[info] set current project to read_csv (in build file:/D:/JAVA/read_csv/)
+[debug] > Exec(apply, None, None)
+[error] apply usage:
+[error] 
+[error] 
+[error] More command help available using 'help <command>' for:
+[error]   apply
+[error] 
+[error] apply
+[error]      ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,44 @@
+plugins {
+    id 'scala'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation group: 'org.scala-lang', name: 'scala-library', version: '2.11.12'
+    implementation 'org.scalaj:scalaj-http_2.13:2.4.2'
+    implementation 'org.json4s:json4s-native_2.13:3.6.7'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.2'
+    implementation group: 'org.json4s', name: 'json4s-jackson_3', version: '4.0.6'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
+    implementation group: 'org.apache.livy', name: 'livy-api', version: '0.7.1-incubating'
+
+
+
+}
+apply plugin: 'scala'
+scala{
+    version='2.11.12'
+}
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/scala'] // Cấu hình thư mục nguồn Scala
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+tasks.compileScala {
+    dependsOn tasks.compileJava
+}
